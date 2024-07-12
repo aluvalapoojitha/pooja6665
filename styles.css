@@ -1,0 +1,69 @@
+/* styles.css */
+/* Add your custom CSS styles here */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.hero-section .container {
+    max-width: 800px;
+}
+
+/* Home Section */
+#home {
+    background: url('../images/image.png') no-repeat center center; /* Use the local image */
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+#home .display-4 {
+    font-size: 50px; /* Increased font size */
+}
+
+/* Menu Section */
+#menu .card-img-top {
+    width: 40px;  /* Set width */
+    height: 40px; /* Set height */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+#menu .card-title {
+    font-size: 1.25rem; /* Adjusted font size */
+}
+
+#menu .card-text {
+    font-size: 1rem; /* Adjusted font size */
+}
+
+/* Gallery Section */
+#gallery .img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px 0;
+}
+
+#contact .form-control {
+    margin-bottom: 20px;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+#contact .btn {
+    font-size: 1rem; /* Adjusted font size */
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
