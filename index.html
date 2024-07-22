@@ -13,6 +13,12 @@
             height: 100%;
             margin: 0;
         }
+        body {
+            background-image: url('./back1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
         .wrapper {
             display: flex;
             flex-direction: column;
@@ -20,6 +26,10 @@
         }
         .content {
             flex: 1;
+            padding: 2rem 1rem; /* Adjust the padding to ensure the title has some margin */
+            text-align: center;
+            color: #fff; /* Make sure text is readable on background image */
+            background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
         }
         footer {
             background-color: #343a40;
@@ -29,7 +39,7 @@
         }
     </style>
 </head>
-<body style="background-image: url('./back1.png')">
+<body>
     <div class="wrapper">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -58,7 +68,7 @@
         </nav>
 
         <!-- Hero Section -->
-        <section id="home" class="py-5 text-center content">
+        <section id="home" class="py-5 content">
             <div class="container">
                 <h1>Welcome to Yummy's Kitchen</h1>
                 <p class="lead">Discover exquisite flavors from around the world.</p>
@@ -73,6 +83,6 @@
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
